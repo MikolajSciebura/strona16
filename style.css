@@ -1,5 +1,11 @@
 /* style.css */
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 :root {
     --primary-color: #ff9800; /* Vibrant Orange */
     --secondary-color: #0b132b; /* Deep Navy */
