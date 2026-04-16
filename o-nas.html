@@ -37,17 +37,16 @@
 }
 </script>
 
-
     <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="critical.css">
     <noscript><link rel="stylesheet" href="style.css"></noscript>
-    <link rel="preload" as="style" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet"></noscript>
-    <link rel="stylesheet" href="font-awesome.min.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="font-awesome.min.css"></noscript>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@500;700&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@500;700&display=swap" media="print" onload="this.media='all'">
+
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+
     <!-- NOWE -->
     <link rel="preload" as="image" href="tlo.webp" fetchpriority="high" type="image/webp">
 
@@ -62,6 +61,8 @@
     <link rel="icon" type="image/png" sizes="192x192" href="favicony/favicon-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="favicony/favicon-512x512.png">
     <link rel="apple-touch-icon" sizes="180x180" href="favicony/favicon-180x180.png">
+
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
@@ -69,7 +70,7 @@
             <div class="container">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="logo.webp" fetchpriority="high" alt="DAWDAN-CARS Częstochowa" width="349" height="60">
+                        <img src="logo.webp" fetchpriority="high" alt="DAWDAN-CARS Częstochowa" width="512" height="87" decoding="async">
                     </a>
                 </div>
                 <nav>
@@ -189,6 +190,5 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
